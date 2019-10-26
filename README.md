@@ -11,8 +11,8 @@ This is a simulation of 4 out of 5 stages (except Fetch) in the RISC processor p
 
 ## Specifications
 
-* 32-bit inpit instructions
-* 32 registers in register file
+* 32-bit input instructions
+* 32 registers in the register file
 * 32-bit data
 * Operations possible: Addition, Subtraction, Comparison, OR, AND, NOR, LOAD(memory->register), STORE(register->memory), MOVE(register->register)
 
@@ -27,6 +27,6 @@ For STORE: **STORE *source destination offset***
 ![Image of RISC Instruction](https://github.com/Hrishabh-yadav/RISC-Processor/blob/master/InstructionsRISC.PNG)
 
 <br>
-
+<br>
 Any instruction Y can be converted to YI(Y immediate) by changing the 5th bit from the left from 1 to 0. <br>
 Example: SUBI = 000100 Ri Rj X
